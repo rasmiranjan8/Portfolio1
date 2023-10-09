@@ -1,0 +1,366 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg3.png);
+    background-size: cover;
+}
+
+#logo {
+    display: inline-block;
+    left: 30px;
+    height: 5%;
+    width: 250px;
+    padding: 5px;
+    margin: none;
+}
+
+#logo:hover {
+    filter: invert(100%);
+}
+
+nav {
+    display: flex;
+    width: 88%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+    position: sticky;
+}
+
+nav ul li {
+    justify-content: space-between;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    padding: 4px;
+    display: inline;
+    top: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0d0e13;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.detail {
+    display: inline;
+    position: absolute;
+    right: 350px;
+    top: 200px;
+    width: 700px;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+.work {
+    position: absolute;
+    left: 330px;
+    top: 600px;
+    font-size: 15px;
+    width: 900px;
+    letter-spacing: 7px;
+    font-family: 'Play', sans-serif;
+    word-spacing: 10px;
+}
+
+.detail h1 {
+    font-size: 55px;
+    color: #e72103;
+    margin: 10px;
+    font-family: 'Martian Mono', monospace;
+}
+
+.detail h2 {
+    font-size: 60px;
+    color: rgb(26, 7, 33);
+    margin: 10px;
+    font-weight: inherit;
+    letter-spacing: 7px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+span {
+    color: orange;
+}
+
+.detail p {
+    color: #0d0e13;
+    line-height: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.detail a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 250px;
+    border-radius: 5px;
+}
+
+.images {
+    max-width: 230px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    left: 50px;
+    top: 180px;
+}
+.images img {
+    display: inline;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    align-items: left;
+    bottom: 0;
+    transition: bottom 1s, left 1s;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+.images:hover .girl {
+    bottom: 40px;
+}
+
+.detail a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    top: 300px;
+    width: 300px;
+    background-color: #f1cbf9;
+}
+
+.container h1 {
+    text-align: center;
+    color: #150721;
+}
+
+.formgroup input {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    width: 90%;
+    padding: 3px;
+    margin: 11px auto;
+    border-radius: 15px;
+}
+
+.container .btn {
+    display: block;
+    width: 75%;
+    height: 30px;
+    margin: 20px auto;
+    align-items: center;
+    font-size: 20px;
+}
+
+.container .btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.work h1 {
+    color: #351447;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 10px;
+    top: 570px;
+    left: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.contact:hover {
+    border: 3px solid black;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 50
+}
+
+.material-symbols-outlined {
+    color: black;
+    height: 20px;
+}
+
+.call {
+    color: black;
+}
+
+.email {
+    color: black;
+}
+.about .academics{
+    position: absolute;
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    right: 43px;
+    top: 45px;
+}
+.about .academics img{
+    width: 100%;
+    height: 100%;
+}
+.code{
+    position: absolute;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    left: 42px;
+    top: 285px;
+}
+.code img{
+    
+    width: 100%;
+    height: 100%;
+}
+.job{
+    position: absolute;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    right: 42px;
+    top: 485px;
+}
+.job img{
+    width: 100%;
+    height: 100%;
+}
+.second {
+    display: inline-block;
+    background-image: url(bg5.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.about h1 {
+    display: inline;
+    position: static;
+    margin: 20px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.about #box1,
+#box2,
+#box3 {
+    border: 2px solid rgb(96, 13, 99);
+    display: block;
+    text-align: center;
+    padding: 6px;
+    width: 75%;
+    margin: 10px;
+    color: rgb(43, 25, 62);
+    border-radius: 20px;
+
+}
+
+.about div p {
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}
+
+.about h2 {
+    font-weight: bold;
+}
+
+#box1 {
+    align-items: left;
+    height: 31%;
+    line-height: 30px;
+}
+
+#box2 {
+    margin-left: auto;
+    height: 31%;
+    line-height: 35px;
+}
+
+#box3 {
+    align-items: right;
+    height: 31%;
+    line-height: 30px;
+}
+
+#box1:hover {
+    border: 3px solid black;
+    transform: translateX(5px);
+}
+
+#box2:hover {
+    border: 3px solid black;
+    transform: translateX(-5px);
+}
+
+#box3:hover {
+    border: 3px solid black;
+    transform: translateX(-5px);
+}
+
+.about .academics:hover {
+    filter: invert(40%);
+    transform: translateX(-5px);
+}
+
+.about .code:hover {
+    filter: invert(20%);
+    transform: translateX(5px);
+}
+
+.about .job:hover {
+    filter: invert(20%);
+    transform: translateX(-5px);
+}
